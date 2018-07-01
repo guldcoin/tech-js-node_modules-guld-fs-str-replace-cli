@@ -1,11 +1,11 @@
-# guld-user-cli
+# guld-fs-str-replace-cli
 
-Guld user management tools. Get, list, and check users of the guld group.
+Replace old-string with new-string for all files in path.
 
 ### Install
 
 ```
-npm i -g guld-user-cli
+npm i -g guld-fs-str-replace-cli
 ```
 
 ### Usage
@@ -13,20 +13,12 @@ npm i -g guld-user-cli
 ##### CLI
 
 ```
-  Usage: guld-user [options] [command]
+  Usage: guld-fs-str-replace <path> <old-str> <new-str> [flags...]
 
-  Guld user management tools. Get, list, and check users of the guld group.
+  Replace old-string with new-string for all files in path.
 
   Options:
 
-    -V, --version                 output the version number
-    -h, --help                    output usage information
-
-  Commands:
-
-    init [user-name] [full-name]  Initialize a new guld user.
-    name                          Get the guld name of the current user.
-    fullname                      Get the full name of the current user.
-    exists                        Check whether a guld name already exists.
-    validate                      Check whether a guld name looks valid.
+    -V, --version  output the version number
+    -h, --help     output usage information
 ```
