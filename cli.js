@@ -10,7 +10,7 @@ program
   .description('Replace old-string with new-string for all files in path.')
   .version(VERSION)
   .action(async (p, o, n, flags) => {
-    strReplace(o, n, [p].concat(flags))
+    strReplace(o, n, [p].concat(flags.rawArgs.slice(3)))
   })
 
 program.parse(process.argv)

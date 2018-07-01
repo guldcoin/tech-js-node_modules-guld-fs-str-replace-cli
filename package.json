@@ -1,7 +1,7 @@
 {
   "name": "guld-fs-str-replace-cli",
-  "version": "1.1.0",
-  "description": "Guld user management tools. Get, list, and check users of the guld group.",
+  "version": "1.1.1",
+  "description": "Replace old-string with new-string for all files in path.",
   "bin": {
     "guld-fs-str-replace": "./cli.js"
   },
