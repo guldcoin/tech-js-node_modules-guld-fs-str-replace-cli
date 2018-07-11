@@ -19,9 +19,9 @@
   "license": "MIT",
   "dependencies": {
     "commander": "^2.16.0",
-    "guld-fs-foreach": "^1.1.7",
-    "guld-git-config": "^1.2.3",
-    "guld-user": "^0.5.4",
+    "guld-fs-foreach": "^1.1.8",
+    "guld-git-config": "^1.2.4",
+    "guld-user": "^0.5.5",
     "inquirer": "^6.0.0"
   },
   "devDependencies": {
