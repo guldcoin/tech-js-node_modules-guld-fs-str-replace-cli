@@ -19,9 +19,9 @@
   "license": "MIT",
   "dependencies": {
     "commander": "^2.16.0",
-    "guld-fs-foreach": "^1.1.5",
-    "guld-git-config": "^1.2.1",
-    "guld-user": "^0.5.2",
+    "guld-fs-foreach": "^1.1.6",
+    "guld-git-config": "^1.2.2",
+    "guld-user": "^0.5.3",
     "inquirer": "^6.0.0"
   },
   "devDependencies": {
@@ -42,5 +42,8 @@
   "readme": "README.md",
   "engines": {
     "node": ">=7"
-  }
+  },
+  "homepage": "https://github.com/isysd/tech-js-node_modules-guld-fs-str-replace-cli#readme",
+  "preferGlobal": true,
+  "repository": "git@github.com:isysd/tech-js-node_modules-guld-fs-str-replace-cli.git"
 }
